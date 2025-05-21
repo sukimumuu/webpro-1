@@ -3,20 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan 4</title>
+    <title>WEB PROGRAMMING I</title>
 </head>
 <body>
-    <h1>Pertemuan 4</h1>
-    <h3>Bangun Datar</h3>
+    <h2>Pertemuan</h2>
     <ul>
-        <li><a href="pages/belahketupat.php">Belah Ketupat</a></li>
-        <li><a href="pages/jajargenjang.php">Jajar Genjang</a></li>
-        <li><a href="pages/layanglayang.php">Layang-layang</a></li>
-        <li><a href="pages/lingkaran.php">Lingkaran</a></li>
-        <li><a href="pages/persegi.php">Persegi</a></li>
-        <li><a href="pages/persegipanjang.php">Persegi Panjang</a></li>
-        <li><a href="pages/segitiga.php">Segitiga</a></li>
-        <li><a href="pages/trapesium.php">Trapesium</a></li>
+        <li><a href="pertemuan-4/index.php">Pertemuan 4</a></li>
+        <li><a href="pertemuan-5/index.php">Pertemuan 5</a></li>
     </ul>
 </body>
 </html>
