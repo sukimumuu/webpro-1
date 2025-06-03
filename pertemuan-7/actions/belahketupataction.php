@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belah Ketupat</title>
+</head>
+<body>
+    <?php
+        $diagonal1 = $_POST['diagonal1'];
+        $diagonal2 = $_POST['diagonal2'];
+        $sisi = $_POST['sisi'];
+        $hitung    = $_POST['hitung'];
+        $luas = 1 / 2 * $diagonal1 * $diagonal2;
+        $keliling = 4 * $sisi;
+    ?>
+    <a href="../pages/belahketupat.php">Kembali</a>
+    <h1>Belah Ketupat</h1>
+    <img src="https://www.kimiamath.com/content/images/belah-ketupat/pembuktian-luas-belah-ketupat4.jpg" width="300" alt="Belah Ketupat" srcset="">
+    <hr>
+    <p>Diagonal 1 = <?php echo $diagonal1; ?> cm</p>
+    <p>Diagonal 2 = <?php echo $diagonal2; ?> cm</p>
+    <p>Sisi = <?php echo $sisi; ?> cm</p>
+    <br>
+    <?php
+        if($hitung == 'luas') {
+            echo "<p>Luas (1 / 2 * Diagonal 1 * Diagonal 2) = $luas cm<sup>2</sup></p>";
+        } else if($hitung == 'keliling') {
+            echo "<p>Keliling (4 * Sisi) = $keliling cm</p>";
+        } else {
+            echo "<p>Luas (1 / 2 * Diagonal 1 * Diagonal 2) = $luas cm<sup>2</sup></p>";
+            echo "<p>Keliling (4 * Sisi) = $keliling cm</p>";
+        }
+    ?>
+</body>
+</html>

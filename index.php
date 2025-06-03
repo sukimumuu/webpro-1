@@ -11,6 +11,7 @@
         <li><a href="pertemuan-4/index.php">Pertemuan 4</a></li>
         <li><a href="pertemuan-5/index.php">Pertemuan 5</a></li>
         <li><a href="pertemuan-6/index.php">Pertemuan 6</a></li>
+        <li><a href="pertemuan-7/index.php">Pertemuan 7</a></li>
     </ul>
 </body>
 </html>
