@@ -48,7 +48,7 @@
                     <input type="radio" value="keliling" id="keliling" name="hitung">
                     <label for="keliling">Keliling</label>
                     <input type="radio" value="luas_keliling" id="luas_keliling" name="hitung">
-                    <label for="luas">Luas & Keliling</label>
+                    <label for="luas_keliling">Luas & Keliling</label>
                 </td>
             </tr>
         </table>
